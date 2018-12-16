@@ -5,6 +5,10 @@ class Course
   def all 
     @@all 
   end
+  
+  def self.reset_all
+    all.reset 
+  end
 
 end
 
